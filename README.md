@@ -4,7 +4,7 @@ Azure Service Bus Client example written in Python
 
 To run this code just export the connection string and topic name like an environment variables:
 
-    export SB_CONNECTION_STRING="Endpoint=sb://yourservicebusname.servicebus.windows.net/;SharedAccessKeyName=python-client-sas;SharedAccessKey=xxxxxxxxx=;EntityPath=topic-name"
+    export SB_CONNECTION_STRING="Endpoint=sb://yourservicebusname.servicebus.windows.net/;SharedAccessKeyName=python-client-sas;SharedAccessKey=xxxxxxxxx="
     export SB_TOPIC_NAME="test-topic"
 
  Then create your virtual env, activate and run the example:
